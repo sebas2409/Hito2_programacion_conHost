@@ -78,19 +78,19 @@ echo "<h1>Editar Datos</h1>";
     <div class="input-group mb-3" id="eliminarConPrivs2">
         <span class="input-group-text" id="basic-addon1">🔐</span>
         <input type="number" name="idOpcional2" class="form-control" placeholder="id" aria-label="id" aria-describedby="basic-addon1">
-        <input type="text" name="passwordOpcional" class="form-control" placeholder="Nuevo nombre de usuario" aria-label="Nombre de usuario" aria-describedby="button-addon2">
+        <input type="text" name="passwordOpcional" class="form-control" placeholder="Nuevo contraseña" aria-label="Nombre de usuario" aria-describedby="button-addon2">
         <button class="btn btn-outline-warning" type="submit" id="button-addon2" name="cambiarPassword">Cambiar</button>
     </div>
     <div class="input-group mb-3" id="eliminarConPrivs3">
         <span class="input-group-text" id="basic-addon1">📬</span>
         <input type="number" name="idOpcional3" class="form-control" placeholder="id" aria-label="id" aria-describedby="basic-addon1">
-        <input type="text" name="correoOpcional" class="form-control" placeholder="Nuevo nombre de usuario" aria-label="Nombre de usuario" aria-describedby="button-addon2">
+        <input type="text" name="correoOpcional" class="form-control" placeholder="Nuevo correo electrónico" aria-label="Nombre de usuario" aria-describedby="button-addon2">
         <button class="btn btn-outline-warning" type="submit" id="button-addon2" name="cambiarCorreo">Cambiar</button>
     </div>
     <div class="input-group mb-3" id="eliminarConPrivs4">
         <span class="input-group-text" id="basic-addon1">🔗</span>
         <input type="number" name="idOpcional4" class="form-control" placeholder="id" aria-label="id" aria-describedby="basic-addon1">
-        <input type="text" name="urlOpcional" class="form-control" placeholder="Nuevo nombre de usuario" aria-label="Nombre de usuario" aria-describedby="button-addon2">
+        <input type="text" name="urlOpcional" class="form-control" placeholder="Nuevo URL" aria-label="Nombre de usuario" aria-describedby="button-addon2">
         <button class="btn btn-outline-warning" type="submit" id="button-addon2" name="cambiarUrl">Cambiar</button>
     </div>
 </form>
