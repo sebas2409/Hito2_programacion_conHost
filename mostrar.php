@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/5c49ed490f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Principal</title>
     <style>
         *{
@@ -42,7 +43,7 @@ echo "<h1>Mostrar Datos</h1>";
     </div>
 </nav>
 <!-- tabla -->
-<table class="table">
+<table class="table table-bordered">
     <thead>
     <tr>
         <th scope="col">id</th>
@@ -66,11 +67,11 @@ if ($_SESSION['usuario']=="admin"){
     while($fila = mysqli_fetch_array($datos1)){
         echo "
         <tr>
-        <th scope='row'>".$fila[0]."</th>
-        <td>".$fila[1]."</td>
-        <td>".$fila[2]."</td>
-        <td>".$fila[3]."</td>
-        <td>".$fila[4]."</td>
+        <th class='table-secondary' scope='row'>".$fila[0]."</th>
+        <td class='table-info'>".$fila[1]."</td>
+        <td class='table-secondary'>".$fila[2]."</td>
+        <td class='table-info'>".$fila[3]."</td>
+        <td class='table-secondary'>".$fila[4]."</td>
         </tr>
         ";
     }
