@@ -1,0 +1,17 @@
+#formulario{
+    border: 1px solid #5da2d3;
+    border-radius: 5px;
+    padding: 17px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#crearCuenta{
+    float: right;
+}
+
+
+
+
