@@ -19,7 +19,7 @@
                 <span class="input-group-text">👤</span>
             </div>
             <label for="usuario"></label>
-            <input type="text" class="form-control" placeholder="Usuario"  name="usuario" id="usuario">
+            <input type="text" class="form-control" placeholder="Usuario"  name="usuario" id="usuario" required>
         </div>
     </div>
     <div class="form-group mt-3" >
