@@ -25,7 +25,7 @@
     <div class="form-group mt-3" >
         <div class="input-group">
             <label for="email"></label>
-            <input type="email" class="form-control" placeholder="Email"  name="email" id="email">
+            <input type="email" class="form-control" placeholder="Email"  name="email" id="email" required>
             <div class="input-group-append">
                 <span class="input-group-text">📬</span>
             </div>
@@ -37,13 +37,13 @@
                 <span class="input-group-text">🔐</span>
             </div>
             <label for="password"></label>
-            <input  type="password" class="form-control" placeholder="Contraseña"  name="password" id="password">
+            <input  type="password" class="form-control" placeholder="Contraseña"  name="password" id="password" required>
         </div>
     </div>
     <div class="form-group mt-3" >
         <div class="input-group">
             <label for="password2"></label>
-            <input type="password" class="form-control" placeholder="Repetir contraseña"  name="password2" id="password2">
+            <input type="password" class="form-control" placeholder="Repetir contraseña"  name="password2" id="password2" required>
             <div class="input-group-append">
                 <span class="input-group-text">🔐</span>
             </div>
@@ -55,7 +55,7 @@
                 <span class="input-group-text">🔗</span>
             </div>
             <label for="link"></label>
-            <input type="url" class="form-control" placeholder="Ingrese el link"  name="link" id="link">
+            <input type="url" class="form-control" placeholder="Ingrese el link"  name="link" id="link" required>
         </div>
     </div>
     <div class="col-12 mt-3" id="boton-registrarse">
